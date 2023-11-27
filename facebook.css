@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+section{
+    width: 100%;
+    background-color: #f0f2f5;
+    padding: 160px 0;
+    float: left;
+
+
+}
+.orta{
+    width: 70%;
+    margin: 0 auto;
+}
+.sol, .sag{
+    width: 50%;
+    float: left
+}
+.logo{
+    width: 100%;
+    margin-left: -10px;
+    width: 270px;
+    margin-top: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.title{
+    width: 100%;
+}
+.title h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.qutu{
+    width: 380px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 9px 0px rgba(0 0, 0, 0.2) ; 
+    margin: 0 auto;
+}
+.form{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+
+
+}
+.form input{
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #dbdbdb;
+    font-weight: 300;
+    margin-bottom: 15px;
+    height: 50px;
+    
+}
+
+   
+
+.eye-box{
+    display: flex;
+    position: absolute;
+    color: gray;
+    top: 15px;
+    right: 15px;
+ }
+ .eye-box i{
+    cursor: pointer;
+ }
+
+ .weak{
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: 8px;
+    font-size: 10px;
+    
+    font-style: italic;
+
+ }
+ .normal{
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: 8px;
+    font-size: 10px;
+    font-style: italic;
+ }
+ .strong{
+    display: none;
+    position: absolute;
+    top: 54px;
+    left: 8px;
+    font-size: 10px;
+    font-style: italic;
+ }
+
+
+
+.giris{
+    width: 100%;
+    margin-bottom: 15px; 
+}
+.giris button{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+.unutdum{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.unutdum a{
+color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+.xett{
+    width: 100%;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin-bottom: 15px;
+}
+.yeniHesab{
+    width: 100%;
+    text-align: center;
+}
+.yeniHesab button{
+    font-weight: 500;
+    background-color: #42b72a;
+    height: 50px;
+    width: 60%;
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+}
+.asagi{
+    width: 380px;
+    margin: 25px auto;
+    text-align: center;
+}
+.asagi a{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+.asagi span{
+    font-size: 15px;
+}
+@media (min-width:300px) and (max-width:900px){
+    .sol, .sag, .ashagi{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .logo{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
